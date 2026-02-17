@@ -23,7 +23,7 @@ const SpeechToText = ({ audioFile, onTranscribe }: ISpeechToTextProps) => {
     if (error) {
       setToast({
         title: "Failed to Tanscribe!",
-        description: error.message,
+        description: error?.message ?? "Something went wrong, try again later.",
         variant: "error",
         delay: 5000
       });
