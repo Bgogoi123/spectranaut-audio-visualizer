@@ -30,7 +30,7 @@ A **Spectrogram** is a visual representation of the frequencies present in a sou
 
 - React + TypeScript
 - Web Audio API
-- Tailwind CSS
+- TailwindCSS
 - Canvas API
 
 
